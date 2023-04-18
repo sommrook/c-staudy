@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// 그림 그리면서 하면 구현하기 쉬워짐!
+// 그림 그리면서 하면 구현하기 
 
 typedef struct NODE {
     int data;
@@ -33,7 +33,6 @@ void Insert(int index, int data)
                 new_node -> next = temp;
                 head = new_node;
                 break;
-                return;
             }
             else{
                 if (index == num+1){
